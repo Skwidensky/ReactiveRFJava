@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_outer_classname = "GeneratedDataProtos";
+option java_package = "org.reactiverfjava.protos";
+
+message GeneratedData {
+	int64 timestamp = 1;
+	repeated double rf_frame = 2 [packed=true];
+}
